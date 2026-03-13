@@ -10,9 +10,8 @@ spec:
     namespace: openshift-gitops
     server: 'https://kubernetes.default.svc'
   source:
-    path: overlays/az2-demo/app-factory
-    repoURL: 'https://github.com/spyury/db-gitops-apps.git'
-    
+    path: overlays/az2-demo/0000-app-factory
+    repoURL: 'https://github.com/spyury/db-gitops-apps.git'    
     targetRevision: main
   sources: []
   project: default
