@@ -50,3 +50,9 @@ applications:
       argocd.argoproj.io/sync-wave: '1'
     source:
       path: overlays/az2-demo/pacman
+
+  kube-ops-ngview:
+    annotations:
+      argocd.argoproj.io/sync-wave: '1'
+    source:
+      path: overlays/az2-demo/kube-ops-ngview      
