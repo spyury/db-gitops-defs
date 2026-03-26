@@ -12,7 +12,7 @@ default:
       server: https://kubernetes.default.svc
     source:
       repoURL: git@github.com:spyury/db-gitops-apps.git
-      targetRevision: v1.0.1-rc1
+      targetRevision: develop
     syncOptions:
       - ApplyOutOfSyncOnly=true
       - PruneLast=true
