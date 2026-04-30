@@ -49,5 +49,5 @@ applications:
     annotations:
       argocd.argoproj.io/sync-wave: '1'
     source:
-      path: overlays/az2-demo/pacman
+      path: overlays/cluster-prod-1/pacman
 

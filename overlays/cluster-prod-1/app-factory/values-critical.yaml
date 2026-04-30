@@ -33,4 +33,4 @@ applications:
     annotations:
       argocd.argoproj.io/sync-wave: '1'
     source:
-      path: overlays/az2-demo/kube-ops-ngview      
+      path: overlays/cluster-prod-1/kube-ops-ngview      
