@@ -11,3 +11,7 @@ helmCharts:
     releaseName: argocd-app-of-app-0.4.1
     valuesFile: values-default.yaml
 
+  - name: argocd-app-of-app-chart
+    version: 0.4.1    
+    releaseName: argocd-app-of-app-0.4.1
+    valuesFile: values-critical.yaml
